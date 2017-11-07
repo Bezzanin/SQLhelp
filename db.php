@@ -4,9 +4,9 @@
 	desc:	Creating the database connection to ourstories db
 */
 $db_server='localhost';	//name or address to database server
-$db_name='ourstories';   //name of database used
-$db_user='Northern_Lights_Route';   //username of database specified user
-$db_password='12345'; //password for username
+$db_name='tietojenkasittely_ourstories';   //name of database used
+$db_user='ourstories';   //username of database specified user
+$db_password='ourstories'; //password for username
 
 //create connection to database with mysqli-object
 $conn=new mysqli($db_server,$db_user,$db_password,$db_name);
